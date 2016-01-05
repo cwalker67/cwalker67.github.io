@@ -3,7 +3,7 @@
 
 # NB! Set your site's url, otherwise stuff will break :)
 
-url: "https://panossakkos.github.io"
+url: "https://cwalker67.github.io"
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (https://yourusername.github.io/repository-name)
@@ -12,7 +12,7 @@ url: "https://panossakkos.github.io"
 #
 # NB! Without this *nothing* will work, because it's used in every path :)
 
-baseurl: /personal-jekyll-theme
+baseurl: /
 
 # Google tracking id to track your visitors
 
@@ -27,22 +27,20 @@ force-https: True
 #############
 # HTML Head #
 #############
-
+author: "Charles Walker"
 lang: "en"
-author: "John Smith"
-title: "{ John Smith }"
-description: "Blog and website of John Smith, blogging mainly for tech. Opinions expressed are mine."
-keywords: "smith, jones, personal, jekyll, theme"
-favicon: "/img/favicon.ico"
-404-img: "/img/labtocat.png"
+title: "{ Charles Walker }"
+favicon: "/img/w.ico"
+description: "Blog and website of Charles Walker, blogging mainly for tech. Opinions expressed are mine."
+keywords: "walker, personal, jekyll, theme"
 
 ################
 # Header layout #
 ################
 
-black-favicon: "/img/black-lab-glass.ico"
-
-background-img: "../img/intro-bg.jpg"
+black-favicon: "/img/bw-w.ico"
+background-img: "../img/mtsbwu.jpg"
+me-img: "/img/linkedin.jpg"
 
 ##############################
 # Dynamic Text on the Header #
@@ -56,10 +54,17 @@ type-speed: 10
 start-delay: 200
 delete-delay: 5000
 lines: # You can add HTML Tags in the Text
-  - text: "The lower you fall, the higher you'll fly."
-  - text: "Where’s your will to be weird?"
+  - text: "<b>I aim to misbehave.</b>"
+  - text: "I'm your huckleberry."
+  - text: "I love deadlines. I love the whooshing noise they make as they go by.<br/>--Douglas Adams"
+  - text: "Any fool can write code that a computer can understand. Good programmers write code that humans can understand<br/>--Martin Fowler"
+  - text: "In order to understand recursion, one must first understand recursion."
+  - text: "Some people, when confronted with a problem, think 'I know, I\'ll use regular expressions.'<br/>Now they have two problems."
+  - text: "Whenever you find yourself on the side of the majority, it is time to pause and reflect.<br/>--Mark Twain"
+  - text: "Be kind whenever possible. It is always possible.<br/> -- Dalai Lama"
+  - text: "Have I not commanded you? Be strong and courageous.<br/>Do not be afraid; do not be discouraged,<br/>for the Lord your God will be with you wherever you go.<br>Joshua 1:9"
+  - text: "<i class='fa fa-hand-spock-o'> Live Long and Prosper</i>"
 
-me-img: "/img/jetpacktocat.png"
 
 ################
 # Web app mode #
@@ -85,17 +90,17 @@ post-preview-words: 96
 paginate: 5
 
 email-share: True
-fb-share: True
+fb-share: False
 twitter-share: True
 linkedin-share: True
-reddit-share: True
+reddit-share: False
 google-plus-share: True
 tumblr-share: True
 pinterest-share: True
 pocket-share: True
-vkontakte-share: True
+vkontakte-share: False
 
-disqus-shortname: "panossakkos"
+disqus-shortname: "cwalker67"
 
 syntax-highlight: True
 
@@ -104,36 +109,51 @@ syntax-highlight: True
 ############
 
 events:
-  - image: "/img/timeline/spidertocat.png"
-    date: "September 2013 - Today"
-    description: "Saving the neighborhood!"
-  - image: "/img/timeline/baracktocat.jpg"
-    date: "September 2007 - August 2013"
-    description: "Started coding"
+  - image: "/img/timeline/globe_50.png"
+    date: "October 2011 - Today"
+    description: "*Saving the world!* - SUM Global Technology"
+  - image: "/img/timeline/drevil.png"
+    date: "April 2011 - October 2011"
+    description: "*Evil Genius* - InComm"
+  - image: "/img/timeline/jediorder.png"
+    date: "December 2000 - April 2011"
+    description: "*Jedi Knight* - Choicepoint/LexisNexis"
+  - image: "/img/timeline/zombiecoder.png"
+    date: "May 1998 - December 2000"
+    description: "*Code Zombie* - Caldwell-Spartin"
+  - image: "/img/timeline/tux.png"
+    date: "December 1994 - May 1998"
+    description: "*Bit Twiddler* - Information America"
+  - image: "/img/timeline/codemonkey.png"
+    date: "April 1992 - December 1994"
+    description: "*Code Monkey* - Healthdyne Technologies"
+  - image: "/img/timeline/mad-buzz.png"
+    date: "April 1992"
+    description: "Graduated from Georgia Tech"
 
 # First image of the Timeline
 
-timeline-img: "/img/timeline/default.png"
+timeline-img: "/img/timeline/mean_baby_pirate.png"
 
 ###########
 # Contact #
 ###########
 
-email: "your@email.here"
+email: "charlie@walkersworld.org"
 
 ##################
 # Social Buttons #
 ##################
 
 social:
-  - title: "facebook"
-    url: "https://facebook.com/"
+  - title: "linkedin"
+    url: "https://linkedin.com/in/charleswalker67"
   - title: "twitter"
-    url: "https://twitter.com/"
+    url: "https://twitter.com/maverick67"
   - title: "github"
-    url: "https://github.com/PanosSakkos/personal-jekyll-theme"
-  - title: "bitcoin"
-    url: "https://blockchain.info/address/1LHuKC9Em3KA5yoZaf7nngnNdf9K7s2gSi"
+    url: "https://github.com/cwalker67"
+  - title: "google-plus"
+    url: "https://www.google.com/+CharlesWalker67"
   - title: "rss"
     url: "/feed.xml"
 
