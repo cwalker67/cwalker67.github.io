@@ -30,7 +30,7 @@ force-https: True
 author: "Charles Walker"
 lang: "en"
 title: "{ Charles Walker }"
-favicon: "/img/w.ico"
+favicon: "/img/web-app/icon-36p.png"
 description: "Blog and website of Charles Walker, blogging mainly for tech. Opinions expressed are mine."
 keywords: "walker, personal, jekyll, theme"
 
@@ -38,7 +38,7 @@ keywords: "walker, personal, jekyll, theme"
 # Header layout #
 ################
 
-black-favicon: "/img/bw-w.ico"
+black-favicon: "/img/white-globe-icon.png"
 background-img: "../img/mtsbwu.jpg"
 me-img: "/img/linkedin.jpg"
 
