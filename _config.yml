@@ -30,7 +30,7 @@ force-https: True
 author: "Charles Walker"
 lang: "en"
 title: "{ Charles Walker }"
-favicon: "/img/web-app/icon-36p.png"
+favicon: "/img/favicon.png"
 description: "Blog and website of Charles Walker, blogging mainly for tech. Opinions expressed are mine."
 keywords: "walker, personal, jekyll, theme"
 
