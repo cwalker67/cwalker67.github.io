@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: "SUM Global:  Securing a REST service with Keycloak"
 category: development
-tags: [ 'dev', 'SUMGLOBAL', 'external' ]
+tags: [ 'dev', 'SUMGlobal', 'external' ]
 external_url: http://sumglobal.com/securing-a-rest-service-with-keycloak/
 ---
 
