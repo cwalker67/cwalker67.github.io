@@ -46,7 +46,7 @@ me-img: "/img/linkedin.jpg"
 # Dynamic Text on the Header #
 ##############################
 
-dynamic-typing: True
+dynamic-typing: False
 shuffle: True # Shuffle the lines.
 loop: True
 loop-count: False # Set False for infinite loop, or set any number for finite loop.
@@ -141,6 +141,18 @@ timeline-img: "/img/timeline/mean_baby_pirate.png"
 
 email: "charlie@walkersworld.org"
 
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+#author_blurb: "John Smith is an awesome person. He lives in Flatland, where he works on two-dimensional engineering projects. In his spare time, John likes to eat cotton candy."
+#author_blurb_image: "/img/author.png"
+
+
 ##################
 # Social Buttons #
 ##################
@@ -190,4 +202,3 @@ sass:
 
 gems:
   - jekyll-paginate
-  - jemoji
